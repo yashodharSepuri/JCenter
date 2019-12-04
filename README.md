@@ -8,9 +8,10 @@
 
 ```
 dependencies {
-    classpath 'com.android.tools.build:gradle:1.2.3'
-    classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.2'
-    classpath 'com.github.dcendents:android-maven-plugin:1.2'
+        classpath 'com.android.tools.build:gradle:3.5.2'
+
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
 }
 ```
 
@@ -22,7 +23,7 @@ ext {
     bintrayName = 'example-lib'
 
     // Maven metadata
-    publishedGroupId = 'eu.giovannidefrancesco.examplelib'
+    publishedGroupId = 'com.package.examplelib'
     libraryName = 'Example-Lib'
     artifact = 'examplelib'
 
